@@ -1,0 +1,8 @@
+(setq a 140)
+(setq b a)
+
+(format t "a=~D and b=~D~%" a b)
+(format t "a+b=~D~%" (+ a b))
+(format t "a-b=~D~%" (- a b))
+(format t "a*b=~D~%" (* a b))
+(format t "a/b=~D~%" (/ a b))
